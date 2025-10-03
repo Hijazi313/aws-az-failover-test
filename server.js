@@ -5,7 +5,7 @@ const axios = require('axios')
 const app = express()
 app.use(express.json())
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 80
 const METADATA_BASE = process.env.METADATA_BASE || 'http://169.254.169.254/latest/meta-data'
 const METADATA_TIMEOUT_MS = 1000
 
